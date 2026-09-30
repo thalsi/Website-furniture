@@ -1,0 +1,185 @@
+/* =========================================================
+    RESET.CSS
+    Purpose:
+    Remove browser default styles and create a consistent
+    starting point for all browsers.
+reset.css
+│
+├── 🔴 MUST USE
+│   ├── 01. Box sizing
+│   ├── 02. Margin & padding
+│   ├── 03. HTML text-size adjustment
+│   ├── 04. Body
+│   ├── 05. Headings
+│   ├── 06. Lists
+│   ├── 07. Links
+│   ├── 08. Images & media
+│   ├── 09. Forms
+│   └── 10. Hidden
+│
+├── 🟡 RECOMMENDED
+│   ├── 11. Button
+│   ├── 12. Textarea
+│   ├── 13. Fieldset
+│   ├── 14. Table
+│   ├── 15. Figure
+│   ├── 16. Blockquote
+│   ├── 17. HR
+│   ├── 18. Sup & Sub
+│   ├── 19. Address
+│   ├── 20. Abbreviation
+│   ├── 21. Details & Summary
+│   ├── 22. Iframe
+│   ├── 23. Audio
+│   └── 24. Pre
+│
+└── 🟢 OPTIONAL
+    ├── 25. Placeholder
+    ├── 26. Search input
+    ├── 27. Number input
+    ├── 28. Checkbox & radio
+    ├── 29. Selection
+    ├── 30. Reduced motion
+    ├── 31. Font smoothing
+    ├── 32. Overflow
+    ├── 33. Focus
+    └── 34. Appearance
+   ========================================================= */
+
+/* 
+# 1. Box-Sizing
+*/
+*,
+*::before,
+*::after{ 
+    box-sizing: border-box;
+}
+/* 
+# 2. margin and padding
+*/
+*,
+*::before,
+*::after{ 
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+3. hmtl
+*/
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+
+/* 
+4. body
+*/
+body {
+    min-height: 100vh;
+}
+
+/* 
+5. Heading
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* 
+6. list
+*/
+ul,
+li{
+    list-style: none;
+}
+
+/* 
+7. links
+*/
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 
+8. Image and Media
+ */
+
+img,
+video,
+svg,
+picture,
+canvas{
+    max-width: 100%;
+    display: block;
+}
+
+img{
+    height: auto;
+}
+
+/* 
+9 . form
+*/
+
+input,
+button,
+textarea,
+select {
+    font-size: inherit;
+    color: inherit;
+}
+
+/* 
+10. button
+*/
+
+button {
+    border: 0;
+    background:none;
+    cursor: pointer;
+}
+
+/* 
+11. textarea
+*/
+textarea {
+    resize: vertical;
+}
+
+/* 
+12. fiedset
+*/
+fieldset{
+    border: 0;
+}
+
+/* 
+13. table
+*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 
+14. Figuar
+*/
+
+/* 
+15. hidden
+*/
+
+[hidden] {
+    display: none !important;
+}
+
